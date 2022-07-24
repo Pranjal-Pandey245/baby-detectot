@@ -3,10 +3,12 @@ music="";
 status="";
 
 function preload(){
-    music= loadSound("alarm.mp3");
+    music= loadSound('alarm.mp3');
 }
 
+
 function setup(){
+
     canvas= createCanvas(380,480);
     video= createCapture(VIDEO);
     video.size(380, 480);
